@@ -14,11 +14,11 @@ The input consists of a single non-empty string, consisting only of uppercase En
 ### Output
 Return the words of the initial song that Polycarpus used to make a dubsteb remix. Separate the words with a space.
 
-###Examples
->song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
+### Examples
+> song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 >  # =>  WE ARE THE CHAMPIONS MY FRIEND
 
-
+### Solution:
 
   def song_decoder(song):
       return " ".join(song.replace('WUB', ' ').split())
