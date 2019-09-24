@@ -16,9 +16,10 @@ Return the words of the initial song that Polycarpus used to make a dubsteb remi
 
 ### Examples
 > song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
+>
 > WE ARE THE CHAMPIONS MY FRIEND
 
 ### Solution:
 
   def song_decoder(song):
-      return " ".join(song.replace('WUB', ' ').split())
+    return " ".join(song.replace('WUB', ' ').split())
