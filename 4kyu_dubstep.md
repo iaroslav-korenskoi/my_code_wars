@@ -1,4 +1,4 @@
-# DUBSTEP 4 kyu
+### DUBSTEP 4 kyu
 
 Polycarpus works as a DJ in the best Berland nightclub, and he often uses dubstep music in his performance. Recently, he has decided to take a couple of old songs and make dubstep remixes from them.
 
@@ -8,18 +8,18 @@ For example, a song with words "I AM X" can transform into a dubstep remix as "W
 
 Recently, Jonny has heard Polycarpus's new dubstep track, but since he isn't into modern music, he decided to find out what was the initial song that Polycarpus remixed. Help Jonny restore the original song.
 
-### Input
+* Input *
 The input consists of a single non-empty string, consisting only of uppercase English letters, the string's length doesn't exceed 200 characters
 
-### Output
+* Output *
 Return the words of the initial song that Polycarpus used to make a dubsteb remix. Separate the words with a space.
 
-### Examples
+* Examples *
 > song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 >
 > WE ARE THE CHAMPIONS MY FRIEND
 
 ### Solution:
 
-  def song_decoder(song):
-    return " ".join(song.replace('WUB', ' ').split())
+<  def song_decoder(song):
+    return " ".join(song.replace('WUB', ' ').split()) >
