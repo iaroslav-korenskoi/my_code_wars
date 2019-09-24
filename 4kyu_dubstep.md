@@ -21,5 +21,5 @@ Return the words of the initial song that Polycarpus used to make a dubsteb remi
 
 ### Solution:
 
-<  def song_decoder(song):
-    return " ".join(song.replace('WUB', ' ').split()) >
+    def song_decoder(song):
+        return " ".join(song.replace('WUB', ' ').split()) >
